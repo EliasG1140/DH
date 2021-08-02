@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Rajdhani;
+}
+
+/* LOGO DIGITAL HOUSE */
+.inzash{
+    transition: transform 0.5s;
+}
+
+.inzash:hover{
+    transform: rotate(0.5turn);
+}
+
+.navbar-brand:hover .main-color{
+    color: #cb1e40;
+}
+
+.navbar-brand:hover .second-color{
+    color: #ffffff;
+}
+
+.main-color {
+    color: #ffffff;
+}
+
+.second-color {
+    color: #e6e6e6;
+}
+
+.fill-current {
+    fill: currentColor;
+}
+
+.nav_logo {
+    height: 2rem;
+}
+
+.breadcrumb-item a {
+    text-decoration: none;
+}
+
+/* MIAN */
+main {
+    background-color: #F5F5F5;
+}
+
+/* footer */
+.social {
+    height: 5rem;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.social li a {
+    color: #cb1e40;
+    font-size: 50px;
+    margin: 0 20px;
+}
+
+.social li a:hover {
+    color: #ffffff;
+}
+
+.social li a i{
+    transition: 0.5s;
+}
+
+.social li a:hover i{
+    transform: scale(0.8);
+}
+
+/* Boostrap Edit*/
+.bg-dark {
+    background-color: #212121 !important;
+}
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 3.75rem;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 50%);
+}
+
+.navbar-nav{
+    font-weight: 700;
+}
+
+footer .nav-link{
+    color: rgba(255,255,255,.55);
+}
+
+footer .nav-link:hover{
+    color:rgba(255,255,255,.75);
+}
+
+.navbar .navbar-nav .nav-item .nav-link, footer .navbar-nav .nav-item .nav-link{
+    position: relative;
+    line-height: 2.75rem;
+}
+
+.navbar .navbar-nav .nav-item .nav-link.active, footer .navbar-nav .nav-item .nav-link.active  {
+    color: #cb1e40;
+}
+
+.navbar .navbar-nav .nav-item .nav-link.active::after {
+    display: block;
+    content: "";
+    background-color: #cb1e40;
+    width: calc(100% - 1rem);
+    height: 4px;
+    position: absolute;
+    bottom: 0;
+}
+
+.navbar .navbar-nav .nav-item .nav-link::after {
+    display: block;
+    content: "";
+    background-color: #fff;
+    width: 0px;
+    height: 4px;
+    position: absolute;
+    bottom: 0;
+    transition: width .5s;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover::after {
+    
+    display: block;
+    content: "";
+    background-color: #fff;
+    width: calc(100% - 1rem);
+    height: 4px;
+    position: absolute;
+    bottom: 0;
+}
+
+/* title pages */
+
+.page-title-box .page-title-right {
+    font-size: 24px;
+    margin: 0;
+    line-height: 75px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: inherit;
+    float: right;
+}
+
+.page-title-box .page-title {
+    font-size: 18px;
+    margin: 0;
+    line-height: 75px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: inherit;
+}
+
+.breadcrum-item + .breadcrum-item::before {
+    content: "/";
+}
+
+/* CARDS */
+.link_card {
+    text-decoration: none;
+    color: #000;
+}
+
+.link_card:hover {
+    color: #000;
+}
+
+.link_card:hover .card {
+    transform: scale(1.03);
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.card {
+    box-shadow: 0 3px 4px rgb(0 0 0 / 10%);
+    transition: transform 0.4s;
+}
+/* CLASES */
+.clases {
+    display: block;
+    overflow: hidden;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.clases li {
+    position: relative;
+    display: block;
+    height: 51px;
+    line-height: 50px;
+}
+
+.clases li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.clases li .estado {
+    position: absolute;
+    width: 100px;
+    right: -180px;
+    top: 0;
+    transition: all .5s;
+    font-weight: 700;
+    background-color: #F5F5F5;
+    text-align: left;
+}
+
+.clases li .terminado {
+    color: #cb1e40;
+}
+
+.clases li .espera {
+    color: #2e18aa;
+}
+
+.clases li .progreso {
+    color: rgb(9, 122, 53);
+}
+
+.clases li:hover .estado {
+    background-color:#e0e0e0;
+    right: 0;
+}
+
+.clases li:hover .clases-content .fecha, .clases li:hover{
+    background-color:#e0e0e0;
+}
+
+.clases li .n_clase {
+    width: 230px;
+    padding-left: 10px;
+    font-weight: 700;
+}
+
+.clases li .n_clase span {
+    text-align:left;
+    color: #cb1e40;
+    padding-left: 90px;
+    text-transform: uppercase;
+}
+
+.clases li .clases-content {
+    position: absolute;
+    overflow: hidden;
+    left: 230px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.clases li .clases-content span{
+    color: #cb1e40;
+    font-weight: 700;
+    font-style: italic;
+    padding-left: 5px;
+}
+
+.clases li .clases-content .fecha {
+    text-align: right;
+    position: absolute;
+    background-color: #F5F5F5;
+    padding-right: 10px;
+    width: 100px;
+    top: 0;
+    right: 0;
+    color: rgba(0,0,0,.5);
+}
+
+.clases h2 {
+    color: #cb1e40;
+    font-size:25px;
+    margin-top:45px;
+}

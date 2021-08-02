@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+/* TOP */
+.top {
+    height: 20px;
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+}
+
+.top .container {
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    color: white;
+}
+
+.top .container p {
+    padding-left: 90px;
+}
+
+.top .container div {
+    padding-right: 50px;
+}
+
+.top select {
+    color: white;
+    font-size: 10px;
+    background: transparent;
+    border: none;
+    padding: 5px;
+}
+
+/* Header */
+header {
+    background-color: #F0A83E;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .container {
+    width: 1024px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Logo */
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo h1{
+    font-size: 20px;
+    color: white;
+}
+
+header .logo h1 span{
+    color: #3C2313;
+}
+
+/* Menu navegacion */
+header .container nav ul {
+    display: flex;
+}
+
+header .container nav ul li {
+    list-style: none;
+    padding-left: 20px;
+}
+
+header .container nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+header .container nav ul li a:hover{
+    color: #3C2313;
+}
+
+/* Main */
+
+/* Slider */
+.slide {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(160,219,184);
+    background-color: linear-gradient(0deg, rgba(160,219,184,1) 0%, rgba(160,219,182,1) 50%, rgba(155,214,176,1) 100%);
+}
+
+main .slide .container {
+    width: 1024px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img_slider {
+    background-image: url(./../img/bowl-and-pet-daities-on-green-background-1.png);
+    height: 407px;
+}
+
+.msj_slider {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.msj_slider h2 {
+    font-size: 30px;
+    font-weight: 400;
+    padding: 10px;
+    margin: 11px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.msj_slider p {
+    font-size: 16px;
+    color: #3C2313;
+}
+
+.msj_slider button{
+    font-size: 16px;
+    color: white;
+    padding: 15px 23px;
+    background-color: #F0A83E;
+    border-radius: 5px;
+    border-style: none;
+    margin: 12px;
+}
+
+/* Producto */
+main .infoProducto {
+    display: flex;
+    justify-content: center;
+}
+
+main .infoProducto .container {
+    width: 1024px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main .infoProducto .container .pata {
+    width: 67px;
+    height: 71px;
+    margin: 20px 0 5px 0;
+}
+
+main .infoProducto .container h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #3C2313;
+}
+
+main .infoProducto .container p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #666666;
+    margin: 20px 0 49px 0;
+}
+
+main .infoProducto .container .productos {
+    display: flex;
+    justify-content: center;
+}
+
+main .infoProducto .container .productos .produc{
+    background-color: #FBFAF6;
+    width: 264px;
+    height: 312px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0 10px 78px 0 ;
+}
+
+main .infoProducto .container .productos .produc img{
+    width: 255px;
+}
+
+main .infoProducto .container .productos .produc .tittle{
+    color: #3C2313;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0;
+}
+
+main .infoProducto .container .productos .produc .price{
+    color: #F0A83E;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* Contacto */
+main .contacto {
+    display: flex;
+    justify-content: center;
+}
+
+main .contacto .container {
+    width: 1024px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main .contacto .container h3 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #3C2313;
+}
+
+main .contacto .container input {
+    background-color: #3C2313;
+    width: 340px;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 5px;
+    border: none;
+}
+
+main .contacto .container input::placeholder {
+    color: white;
+    font-size: 9px;
+    font-weight: 400;
+}
+
+main .contacto .container .ctrl {
+    display: flex;
+    justify-content: center;
+    margin: 41px 0 75px 0;
+}
+
+main .contacto .container .ctrl .ctrl_1{
+    background-color: #8A8787;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    padding: 7px 25px;
+    margin: 3px;
+}
+
+main .contacto .container .ctrl .ctrl_2{
+    background-color: #F0A83E;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    padding: 7px 25px;
+    margin: 3px;
+}
+
+/* Suscripcion */
+main .barSus {
+    height: 60px;
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: center;
+}
+
+main .barSus .container {
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+main .barSus .container .msj{
+    margin-left: 23px;
+    display: flex;
+    align-items: center;
+}
+
+main .barSus .container .msj p {
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+main .barSus .container .btnes {
+    display: flex;
+    align-items: center;
+} 
+
+main .barSus .container .btnes input {
+    border: none;
+    border-radius: 15px;
+    padding: 14px;
+    margin-right: 5px;
+} 
+
+main .barSus .container .btnes input::placeholder {
+    color: #A0A0A0;
+    font-size: 9px;
+    font-weight: 400;
+} 
+
+main .barSus .container .btnes button {
+    color: white;
+    font-size: 9px;
+    font-weight: 700;
+    padding: 12px;
+    border-radius: 15px;
+    border: none;
+    background-color: #3C2313;
+}
+
+/* Footer */
+footer {
+    background-color: #3C2313;
+    height: 304px;
+    display: flex;
+    justify-content: center;
+}
+
+footer .container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 1024px;
+}
+
+footer .info{
+    display: flex;
+    flex-direction: column;
+    margin: 23px 0px 43px 70px;
+}
+
+footer .info .infoCard{
+    margin: 10px;
+    display: flex;
+}
+
+footer .info .infoCard .descripCard {
+    margin-left: 25px;
+}
+
+footer .info .infoCard .descripCard .title{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+footer .info .infoCard .descripCard .minInfo {
+    color: #8A8787;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+footer .logo {
+    margin-right: 70px;
+    display: flex;
+    align-items: center;
+}
+
+footer .logo h1{
+    font-size: 20px;
+    color:#F0A83E;
+}
+
+footer .logo h1 span{
+    color: #fff;
+}
+
+footer .buttomBar{
+    position: absolute;
+    background-color: #222222;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+
+footer .buttomBar p {
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+}

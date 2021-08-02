@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+/* Header */
+header {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+
+.container {
+    width: 95vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+header h1 {
+    padding-left: 10px;
+    font-size: 24px;
+    color: white;
+}
+
+footer h1 {
+    padding-left: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.pizza{
+    color: #39B24A;
+}
+
+.front {
+    color: #FC200C;
+}
+
+/* Menu */
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header ul {
+    list-style: none;
+    color: white;
+    display: flex;
+}
+
+header li {
+    padding-left: 10px;
+}
+
+header li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+
+header li a:hover{
+    font-size: 16px;
+    text-decoration: none;
+    color: green;
+}
+
+/* Main */
+main {
+    background-color: #F3F3F3;
+    display: flex;
+}
+
+main section {
+    margin: 150px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main section article {
+    width: 490px;
+    height: 350px;
+    margin: 3px;
+    border-radius: 5px;
+}
+
+main section .article1 {
+    background-image: url(./../img/delivery.png);
+}
+
+main section .article1 h2{
+    font-size: 24px;
+    color: white;
+    padding: 20px;
+}
+
+main section .article1 h2 .red{
+    color: #FC200C;
+}
+
+main section .article2 {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+main section .article2 .articleTitle {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main section .article2 .articleTitle h2{
+    color: #FC200C; 
+    font-size: 24px;
+}
+
+main section .article2 .articleContent{
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+main section .article2 .articleContent .menuContent{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main section .article2 .articleContent .titleMenuContent{
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px;
+}
+
+main section .article2 .articleContent ol li{
+    font-weight: 700;
+    font-size: 16px;
+    padding: 5px;
+}
+
+/* Helado */
+.helado {
+    width: 50%;
+    height: 50%;
+    background-image: url(./../img/PizzaFalling.png);
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+
+/* Footer */
+footer {
+    height: 150px;
+    background-color: #222222;
+}
+
+footer nav {
+    display: flex;
+    align-items: center;
+}
+
+footer ul {
+    height: 150px;
+    list-style: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+footer li {
+    padding-left: 10px;
+}
+
+footer li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+
+footer li a:hover{
+    font-size: 16px;
+    text-decoration: none;
+    color: green;
+}

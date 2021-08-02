@@ -1,0 +1,81 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: #E5E5E5;
+}
+
+header img {
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    background-color: #C4C4C4;
+    color:#005677 ;
+    font-weight: 700;
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 5px;
+    padding: 5px;
+}
+
+main {
+    padding: 100px 0;
+    margin: auto;
+    width: 80%;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    background-color: #C4C4C4;
+    color:#005677 ;
+    font-weight: 700;
+    text-align: left;
+    font-size: 20px;
+    letter-spacing: 5px;
+    padding: 5px;
+}
+
+.no-style {
+    list-style: none;
+}
+
+li span {
+    font-weight: bold;
+    font-style: italic;
+}
+
+li {
+    line-height: 0.5;
+}
+
+li .identado {
+    padding-left: 80px;
+}
+
+dt {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #005677;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 5px;
+    display: inline-block;
+}
+
+footer img {
+    display: inline-block;
+    padding-left: 25px;
+}
