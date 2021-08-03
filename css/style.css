@@ -286,3 +286,68 @@ footer .nav-link:hover{
     font-size:25px;
     margin-top:45px;
 }
+
+/* Consignas */
+.consignas h2 {
+    color: #cb1e40;
+    font-weight: 700;
+}
+
+/* Visor */
+.visor {
+    border: 3px solid #212121;
+    border-radius: 8px;
+}
+
+.visor .visorHeader {
+    background-color: #212121;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size:1rem;
+    font-weight: 700;
+    padding: 0 20px;
+}
+
+.visor .visorHeader p {
+    margin: 0;
+}
+
+
+/* SCROLLBAR */
+
+body::-webkit-scrollbar {
+    width: 5px;     /* Tamaño del scroll en vertical */
+    height: 5px;    /* Tamaño del scroll en horizontal */
+    display:block;  /* Ocultar scroll */
+}
+
+/* Ponemos un color de fondo y redondeamos las esquinas del thumb */
+body::-webkit-scrollbar-thumb {
+    background: #cb1e40;
+    border-radius: 4px;
+}
+
+/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+body::-webkit-scrollbar-thumb:hover {
+    background: #c85757;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Cambiamos el fondo cuando esté en active */
+body::-webkit-scrollbar-thumb:active {
+    background-color: #999999;
+}
+
+/* Ponemos un color de fondo y redondeamos las esquinas del track */
+body::-webkit-scrollbar-track {
+    background: #212121;
+    border-radius: 4px;
+}
+
+/* Cambiamos el fondo cuando esté en active o hover */
+body::-webkit-scrollbar-track:hover,
+body::-webkit-scrollbar-track:active {
+    background: #212121;
+}
