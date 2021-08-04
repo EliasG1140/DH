@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* RESPONSIVE MOBILE 480px */
+.container {
+    width: 480px;
+    padding: 5px;
+}
+
+aside {
+    width: 480px;
+    height:30px;
+    background-color: #D1891C;
+}
+
+header {
+    width: 480px;
+    display:flex;
+    align-items: center;
+    background-color: #00669F;
+    height: 75px;
+    color: white;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    position:relative;
+    width: 350px;
+    background-color: #C4C4C4;
+    border-radius: 30px 30px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin: 35px 0;
+}
+
+article .heart {
+    background-image: url(../img/heart.svg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width:35px;
+    height:35px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+article .card_header {
+    background-image: url(../img/header_batman.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 350px;
+    height: 217px;
+    border-radius: 30px 30px 0 0;
+}
+
+article .card_profile {
+    background-image: url(../img/profile_barman.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    top: 150px;
+    left: 115px;
+}
+
+article h2 {
+    padding-top: 80px;
+}
+
+article p {
+    margin-top: 10px;
+    text-align: left;
+    padding: 0 18px;
+}
+
+article a {
+    margin: 10px 0;
+    background-color: #00669F;
+    padding: 15px 35px;
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    height:45px;
+    background-color: #00669F;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 481px){
+    header {
+        width: 781px;
+    }
+}

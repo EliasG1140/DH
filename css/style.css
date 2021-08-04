@@ -314,6 +314,21 @@ footer .nav-link:hover{
     margin: 0;
 }
 
+.visor .visorHeader div a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+    color: white;
+    border: 1px solid #ffffff;
+    border-radius:5px;
+    padding: 0 10px;
+    margin-right: 10px;
+}
+
+.visor .visorHeader div a:hover {
+    color:#cb1e40;
+    border: 1px solid #cb1e40;
+}
 
 /* SCROLLBAR */
 
