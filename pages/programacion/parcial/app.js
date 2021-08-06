@@ -64,7 +64,7 @@ const cartillaProfesionales = {
 
 // c. listarProfesionales que reciba un Array de objetos y de un listado de los profesionales (2 OPCIONES)
 // console.table(cartillaProfesionales.listarProfesionales(ArrayProfesionales));
-//console.log(cartillaProfesionales.listarProfesionales(cartillaProfesionales.profesionales));
+// console.log(cartillaProfesionales.listarProfesionales(cartillaProfesionales.profesionales));
 
 // d. filtrarHabilitados, filtra los profesionales habilitados
 //console.log(cartillaProfesionales.filtrarHabilitados())
