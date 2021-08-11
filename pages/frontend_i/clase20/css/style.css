@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:"Roboto";
+}
+
+body {
+  background-color: #F3F3F3;
+}
+
+.container {
+  width: 100vw;
+  padding: 0 10px;
+}
+
+/* = = = = = = = = = = = = = = = = = = = = = = = = =*/
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-between {
+  justify-content:space-between;
+}
+
+.flex-direction-colum {
+  flex-direction: column;
+}
+/* = = = = = = = = = = = = = = = = = = = = = = = = =*/
+
+header {
+  background-color: #222222;
+  height: 90px;
+  display: flex;
+  align-items: center;
+}
+
+header div a {
+  text-decoration: none;
+  color: white;
+}
+
+header div i {
+  color: white;
+  font-size: 27px;
+}
+
+header div nav {
+  display: none;
+}
+
+.logo {
+  background-image: url(./../img/logo_img.svg);
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 40px;
+}
+
+.logo_text {
+  font-weight: 700;
+  font-size: 30px;
+  margin-left: 12px;
+}
+
+.logo_text span {
+  color: #D01418;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+/* = = = = = = = = = = = = = = = = = = = = = = = = =*/
+section .slider_img{
+  background-image: url(./../img/slider.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section .slider {
+  height:512px;
+  padding: 0 39px;
+}
+
+section .slider h2 {
+  font-size: 40px;
+  font-weight:700;
+  color: white;
+}
+
+section .slider h2 span:nth-child(1) {
+  color: #D01418;
+}
+
+section .slider h2 span:nth-child(2) {
+  margin-left:50px;
+}
+
+section .slider h2 span:nth-child(3) {
+  margin-left:50px;
+}
+
+
+section .slider a {
+  background-color: #D01418;
+  color: white;
+  text-decoration: none;
+  padding:16px 61px;
+  border-radius: 9px;
+  margin-top: 50px;
+}
+
+/* = = = = = = = = = = = = = = = = = = = = = = = = =*/
+
+section:nth-child(3) h2 {
+  font-size: 30px;
+  margin-top:25px;
+  margin-bottom:10px;
+  text-align: center;
+}
+
+section div.product .card {
+  background-color: white;
+  width: 240px;
+  height:322px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0;
+}
+
+section div.product .card img {
+  width: 130px;
+}
+
+section div.product .card hr {
+  background-color: #222222;
+  height:0.2px;
+  margin: 30px 0 21px 0;
+  width: 100%;
+}
+
+section div.product .card p {
+  padding-left: 20px;
+  align-self: flex-start;
+}
+
+section div.product .card p:nth-child(2){
+  font-size: 20px;
+}
+
+section div.product .card p:nth-child(3){
+  font-size: 13px;
+  margin: 4px 0 3px 0;
+}
+
+section div.product .card p:nth-child(4){
+  font-size: 10px;
+  color: #619D00;
+}
+
+/* = = = = = = = = = = = = = = = = = = = = = = = = =*/
+section.banner .container {
+  margin-bottom: 72px;;
+}
+
+section.banner .container h2 {
+  margin-top:85px;
+  font-size: 30px;
+  text-align: center;
+}
+
+section.banner a {
+  text-decoration: none;
+  color: #F3F3F3;
+  margin: 12px 0;
+}
+
+section.banner .container .content_banner a div{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 288px;
+  height: 108px;
+  border-radius: 5px;
+}
+
+section.banner .container .content_banner a div.banner1 {
+  background-image: url(./../img/banner1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section.banner .container .content_banner a div.banner2 {
+  background-image: url(./../img/banner2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section.banner .container .content_banner a div p {
+  margin-right:30px ;
+}
+
+/* = = = = = = = = = = = = = = = = = = = = = = = = =*/
+
+footer {
+  background-color: #222222;
+}
+
+footer .container .logo_a {
+  text-decoration: none;
+  color: white;
+  margin-top:20px;
+}
+
+footer .container a .logo {
+  background-image: url(./../img/logo_img.svg);
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 40px;
+}
+
+footer .container a .logo_text {
+  font-weight: 700;
+  font-size: 25px;
+  margin-left: 12px;
+}
+
+footer .container a .logo_text span {
+  color: #D01418;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+footer .redes_sociales p{
+  color: #fff;
+  font-size: 25px;
+  margin: 31px 0 20px 0;
+}
+
+footer .redes_sociales .icon_redes {
+  margin-bottom: 12px;
+}
+
+footer .redes_sociales .icon_redes a {
+  display: flex;
+  align-items: center;
+}
+
+footer .copy {
+  background-color: #C4C4C4;
+  width: 100vw;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:10px
+}
+
+
+@media (min-width: 512px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  section .slider h2 span:nth-child(2) {
+    margin-left:0px;
+  }
+  
+  section .slider h2 span:nth-child(3) {
+    margin-left: 0px;
+  }
+}
+
+@media (min-width: 680px) {
+  .container {
+    padding: 0 30px;
+  }
+
+  header .container i {
+    display: none;
+  }
+
+  header div nav {
+    display: block;
+  }
+
+  header div nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+
+  header div nav ul li {
+    color: white;
+    margin: 0 4px;
+  }
+
+  header div nav ul li:nth-child(5) i {
+    display: block;
+    margin-left: 42px;
+    color: #D01418;
+  }
+  .product {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: w;
+  }
+
+  section div.product .card {
+    width: 265px;
+    height:322px;
+    margin: 15px 15px;
+  }
+  section.banner .container .content_banner a div{
+    width: 390px;
+    height: 135px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding: 0 40px;
+  }
+
+  section.banner .content_banner {
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  section.banner .container .content_banner a {
+    margin: 0 51px;
+  }
+
+  section.banner .container .content_banner a div{
+    width: 360px;
+    height: 135px;
+  }
+
+  footer .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
